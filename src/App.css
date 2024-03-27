@@ -12,7 +12,7 @@ body {
 
 .main-box {
   background-color: rgb(238, 193, 87);
-  width: 20rem;
+  width: 35rem;
   padding: 2rem;
   border-radius: 12px;
   display: flex;
@@ -53,11 +53,6 @@ body {
   height: 2.5rem;
   cursor: pointer;
 }
-.adding-part {
-  gap: 1rem;
-  align-content: center;
-  justify-content: center;
-}
 
 .adding-text {
   font-size: 2rem;
@@ -76,5 +71,56 @@ body {
   margin-left: 1rem;
   width: 3rem;
   height: 2.5rem;
+  cursor: pointer;
+}
+
+.edit-btn {
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: 1rem;
+  width: 3rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.edit-inner-text {
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.edit-inner-text:hover {
+  background-color: #979797;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.save-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  width: 4rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  width: 4rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
