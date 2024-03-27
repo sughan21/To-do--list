@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  width: auto;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.main-box {
+  background-color: rgb(238, 193, 87);
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: #8f8f8f 2px 3px;
+}
+
+.enter-text {
+  font-size: 2.5rem;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-shadow: #e6e6e6 1px 2px;
+}
+
+.inner-text {
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #979797;
+  border: none;
+  background-color: transparent;
+}
+
+.inner-text:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.add-btn {
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: 1rem;
+  width: 3rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+.adding-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adding-text {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: black 1px 2px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.del-btn {
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: 1rem;
+  width: 3rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
