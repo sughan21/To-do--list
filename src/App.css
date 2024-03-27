@@ -54,8 +54,8 @@ body {
   cursor: pointer;
 }
 .adding-part {
-  display: flex;
-  align-items: center;
+  gap: 1rem;
+  align-content: center;
   justify-content: center;
 }
 
